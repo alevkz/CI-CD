@@ -17,6 +17,10 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>Slide 1</section>
+				<section>
+					<section>Vertical 1</Section>
+					<section>Vertical 2</section>
+				</section>
 				<section>Slide 2
 						<aside class="notes">
 						<p>Some notes</p>
@@ -25,6 +29,37 @@
 						<aside class="notes">
 						<p>and some more notes</p>
 					</aside>
+				</section>
+				<section>Slide3
+					<section>
+						<div style="float: right; width: 70%">
+						  <pre class="stretch" style="font-size: .5em"><code class="java">
+						  </code></pre>
+						</div>
+						<div style="width: 30%">
+						<p style="font-size: .7em">Write a program that accepts a positive <mark>integer that represents a year</mark>...</p>
+						</div>
+					  </section>
+					  
+					  <section>
+						<div style="float: right; width: 70%">
+						  <pre class="stretch" style="font-size: .5em"><code class="java"><mark>int year = reader.nextInt();</mark>
+						  </code></pre>
+						</div>
+						<div style="width: 30%">
+						<p style="font-size: .7em">Write a program that accepts a positive <mark>integer that represents a year</mark>...</p>
+						</div>
+					  </section>
+					  
+					  <section>
+						<div style="float: right; width: 70%">
+						  <pre class="stretch" style="font-size: .5em"><code class="java">int year = reader.nextInt();
+						  </code></pre>
+						</div>
+						<div style="width: 30%">
+						<p style="font-size: .7em">Write a program that accepts a <mark>positive integer</mark> that represents a year...</p>
+						</div>
+					  </section>
 				</section>
 			</div>
 		</div>
